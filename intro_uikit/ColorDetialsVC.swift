@@ -8,11 +8,12 @@
 import UIKit
 
 class ColorDetialsVC: UIViewController {
-
+    
+    var color :UIColor?
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view.backgroundColor = color ?? .red
     }
     
 

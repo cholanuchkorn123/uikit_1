@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5786C5592BB6C1C600234816 /* UIcolor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786C5582BB6C1C600234816 /* UIcolor+ext.swift */; };
 		57E5419C2BB5A9E900C09422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5419B2BB5A9E900C09422 /* AppDelegate.swift */; };
 		57E5419E2BB5A9E900C09422 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5419D2BB5A9E900C09422 /* SceneDelegate.swift */; };
 		57E541A02BB5A9E900C09422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5419F2BB5A9E900C09422 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		57E541A62BB5A9E900C09422 /* intro_uikit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57E541A42BB5A9E900C09422 /* intro_uikit.xcdatamodeld */; };
 		57E541A82BB5A9EA00C09422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E541A72BB5A9EA00C09422 /* Assets.xcassets */; };
 		57E541AB2BB5A9EA00C09422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E541A92BB5A9EA00C09422 /* LaunchScreen.storyboard */; };
+		57E541B52BB5B6C400C09422 /* TabbarColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E541B42BB5B6C400C09422 /* TabbarColorVC.swift */; };
+		57E541B72BB5B88500C09422 /* ColorDetialsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E541B62BB5B88500C09422 /* ColorDetialsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5786C5582BB6C1C600234816 /* UIcolor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+ext.swift"; sourceTree = "<group>"; };
 		57E541982BB5A9E900C09422 /* intro_uikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intro_uikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E5419B2BB5A9E900C09422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E5419D2BB5A9E900C09422 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		57E541A72BB5A9EA00C09422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E541AA2BB5A9EA00C09422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E541AC2BB5A9EA00C09422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E541B42BB5B6C400C09422 /* TabbarColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarColorVC.swift; sourceTree = "<group>"; };
+		57E541B62BB5B88500C09422 /* ColorDetialsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetialsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				57E5419B2BB5A9E900C09422 /* AppDelegate.swift */,
 				57E5419D2BB5A9E900C09422 /* SceneDelegate.swift */,
+				57E541B42BB5B6C400C09422 /* TabbarColorVC.swift */,
 				57E5419F2BB5A9E900C09422 /* ViewController.swift */,
 				57E541A12BB5A9E900C09422 /* Main.storyboard */,
 				57E541A72BB5A9EA00C09422 /* Assets.xcassets */,
 				57E541A92BB5A9EA00C09422 /* LaunchScreen.storyboard */,
 				57E541AC2BB5A9EA00C09422 /* Info.plist */,
 				57E541A42BB5A9E900C09422 /* intro_uikit.xcdatamodeld */,
+				57E541B62BB5B88500C09422 /* ColorDetialsVC.swift */,
+				5786C5582BB6C1C600234816 /* UIcolor+ext.swift */,
 			);
 			path = intro_uikit;
 			sourceTree = "<group>";
@@ -143,7 +152,10 @@
 			files = (
 				57E541A02BB5A9E900C09422 /* ViewController.swift in Sources */,
 				57E541A62BB5A9E900C09422 /* intro_uikit.xcdatamodeld in Sources */,
+				5786C5592BB6C1C600234816 /* UIcolor+ext.swift in Sources */,
 				57E5419C2BB5A9E900C09422 /* AppDelegate.swift in Sources */,
+				57E541B72BB5B88500C09422 /* ColorDetialsVC.swift in Sources */,
+				57E541B52BB5B6C400C09422 /* TabbarColorVC.swift in Sources */,
 				57E5419E2BB5A9E900C09422 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
